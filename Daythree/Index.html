@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* for entire ancor tag */
+      a {
+        color: rgb(218, 198, 198);
+      }
+      /* for anchor in nav bar */
+      ul li a {
+        color: rgb(97, 54, 133);
+      }
+
+      /* for  ancor in para  */
+
+      div a {
+        color: rgb(245, 174, 174);
+      }
+
+      ul + div a {
+        color: yellow;
+      }
+      /* for nav bar */
+      ul > li {
+        color: purple;
+        list-style: square;
+      }
+      /* for item 1 and 2 */
+      ul > li ol {
+        list-style: none;
+      }
+
+      * {
+        background: url(img/photo-1553095066-5014bc7b7f2d.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The heading</h1>
+
+    <hr />
+
+    <ul>
+      <li><a href="#"> Home</a></li>
+      <li>
+        <a href="#"> buy</a>
+        <ol>
+          <li><a href="#"> Item 1</a></li>
+          <li><a href="#"> item 2</a></li>
+        </ol>
+      </li>
+      <li><a href="#"> Contact</a></li>
+      <li><a href="#"> Product</a></li>
+    </ul>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+      accusantium voluptas eveniet at expedita velit sit sed ad facilis,
+      molestias a nemo porro deleniti enim et quo, ipsum autem soluta!
+      <a href="#">TEST</a>
+    </div>
+    <hr />
+  </body>
+</html>
